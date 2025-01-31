@@ -13,7 +13,7 @@
 }
 
 .background{
-  background-image: url("C:\Users\DR. IGWE\Desktop\My Project\carshowroom\src\assets\pexels-lynxexotics-4141954.jpg");
+  background-image: url("C:\Users\HP\Desktop\carshowroom\carshowroom\src\assets\pexels-lynxexotics-4141954.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@
   
 }
 .blogbackground{
-  background-image: url("C:\Users\DR. IGWE\Desktop\My Project\carshowroom\src\assets\car8-660x440.jpg.png");
+  background-image: url("C:\Users\HP\Desktop\carshowroom\carshowroom\src\assets\pexels-lynxexotics-4141954.jpg");
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat; 
@@ -109,21 +109,21 @@
 }
 
 .blog1{
-  background-image: url('C:\Users\DR. IGWE\Desktop\My Project\carshowroom\src\assets\Car Project Image\blogpage1.jpg');
+  background-image: url('C:\Users\HP\Desktop\carshowroom\carshowroom\src\assets\Car Project Image\blogpage1.jpg');
   background-position: cover;
   background-size: cover;
   background-repeat: no-repeat;
   height: 35vh;
 }
 .blog2{
-  background-image: url('C:\Users\DR. IGWE\Desktop\My Project\carshowroom\src\assets\Car Project Image\blogpage2.jpg');
+  background-image: url('C:\Users\HP\Desktop\carshowroom\carshowroom\src\assets\Car Project Image\blogpage2.jpg');
   background-position: cover;
   background-size: cover;
   background-repeat: no-repeat;
   height: 35vh;
 }
 .blog3{
-  background-image: url('C:\Users\DR. IGWE\Desktop\My Project\carshowroom\src\assets\Car Project Image\blogpage3.jpg');
+  background-image: url('C:\Users\HP\Desktop\carshowroom\carshowroom\src\assets\Car Project Image\blogpage3.jpg');
   background-position: cover;
   background-size: cover;
   background-repeat: no-repeat;

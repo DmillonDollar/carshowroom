@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { toast } from 'react-toastify'
 import { addToCart } from '../Redux/CartSlice'
 // import { Navigate } from 'react-router-dom'
-import DataContext from '../DataContext/DataContext'
+import DataContext from '../Registration/UseContext/DataContext'
 import Loading from '../Loading/Loading'
 // import { Link } from 'react-router-dom'
 // 

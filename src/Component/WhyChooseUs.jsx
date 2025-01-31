@@ -4,14 +4,14 @@ import { FaTaxi, FaDotCircle, FaServicestack } from 'react-icons/fa'
 import about from '../assets/Car Project Image/whychooseus.png'
 const WhyChooseUs = () => {
   return (
-    <div className=''>
+    <div className='mt-20'>
         <div className='flex bg-black  mb-20 items-center gap-[30px] p-4 px-10'>
             {/* FirstPart */}
                     <div className='w-[60%]'>
 
                         <div className='flex flex-col text-white '>
 
-                            <div className='flex gap-3 items-center'>
+                            <div className='flex items-center gap-5'>
                                 <FaTaxi className=' text-2xl'/>
                                 <p className='font-extrabold text-[25px]'>WHY CHOOSE US</p>
                             </div>
@@ -39,7 +39,7 @@ const WhyChooseUs = () => {
                             {/* first Part */}
 
                                     <div className='bg-white rounded-xl p-3 w-[100%]'>
-                                        <div className='flex flex-col gap-3 text-black'>
+                                        <div className='flex flex-col  text-black'>
                                             <div className='flex justify-between items-center'>
                                                 <div className='p-3 bg-red-600 rounded-[50%]'>
                                                     <FaServicestack className='text-4xl text-white'/>
@@ -53,8 +53,8 @@ const WhyChooseUs = () => {
                                             <p className='text-2xl  font-extrabold'>Best Quality Cars</p>
                                             </div>
 
-                                            <div className='leading-8 mb-8'>
-                                            <p>There are many variations of the passages available but the </p>
+                                            <div className='leading-8'>
+                                            <p>There are many variations of the passages </p>
                                             </div>
 
                                         </div>
@@ -65,7 +65,7 @@ const WhyChooseUs = () => {
                             {/* secondpart */}
 
                                 <div className='bg-white rounded-xl p-3 w-[100%]'>
-                                    <div className='flex flex-col gap-3 text-black'>
+                                    <div className='flex flex-col text-black'>
                                         <div className='flex justify-between items-center'>
                                             <div className='p-3 bg-red-600 rounded-[50%]'>
                                                 <FaServicestack className='text-4xl text-white'/>
@@ -79,8 +79,8 @@ const WhyChooseUs = () => {
                                         <p className='text-2xl  font-extrabold'>Best Quality Cars</p>
                                         </div>
 
-                                        <div className='leading-8 mb-8'>
-                                        <p>There are many variations of the passages available but the  </p>
+                                        <div className='leading-8 '>
+                                        <p>There are many variations of the passages  </p>
                                         </div>
 
                                     </div>
@@ -102,7 +102,7 @@ const WhyChooseUs = () => {
                             {/* first Part */}
 
                             <div className='bg-white rounded-xl p-3 w-[100%]'>
-                                <div className='flex flex-col gap-3 text-black'>
+                                <div className='flex flex-col text-black'>
                                     <div className='flex justify-between items-center'>
                                         <div className='p-3 bg-red-600 rounded-[50%]'>
                                             <FaServicestack className='text-4xl text-white'/>
@@ -116,8 +116,8 @@ const WhyChooseUs = () => {
                                     <p className='text-2xl  font-extrabold'>Best Quality Cars</p>
                                     </div>
 
-                                    <div className='leading-8 mb-8'>
-                                    <p>There are many variations of the passages available but the majo have suffered fact </p>
+                                    <div className='leading-8 '>
+                                    <p>There are many variations of the passages</p>
                                     </div>
 
                                 </div>
@@ -128,7 +128,7 @@ const WhyChooseUs = () => {
                             {/* secondpart */}
 
                             <div className='bg-white rounded-xl p-3 w-[100%]'>
-                                <div className='flex flex-col gap-3 text-black'>
+                                <div className='flex flex-col text-black'>
                                     <div className='flex justify-between items-center'>
                                         <div className='p-3 bg-red-600 rounded-[50%]'>
                                             <FaServicestack className='text-4xl text-white'/>
@@ -142,8 +142,8 @@ const WhyChooseUs = () => {
                                     <p className='text-2xl  font-extrabold'>Best Quality Cars</p>
                                     </div>
 
-                                    <div className='leading-8 mb-8'>
-                                    <p>There are many variations of the passages available but the majo have suffered fact </p>
+                                    <div className='leading-8 '>
+                                    <p>There are many variations of the passages </p>
                                     </div>
 
                                 </div>

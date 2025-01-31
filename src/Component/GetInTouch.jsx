@@ -5,10 +5,10 @@ const GetInTouch = () => {
     const [email, setEmail] = useState("")
     const [comment, setComment] = useState('')
     return (
-        <div className='flex flex-col items-center bg-[#333] p-24 raleway '>
+        <div className='flex flex-col items-center p-24 raleway '>
             <div className='text-center'>
-                <h1 className=' text-white text-5xl font-extrabold mb-8'>GET <span className='font-sans font-thin'>IN TOUCH</span></h1>
-                <p className='text-white w-[600px] mb-8'>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+                <h1 className='  text-5xl  font-extrabold mb-8'>GET <span className='font-sans font-thin text-red-900'>IN TOUCH</span></h1>
+                <p className=' w-[600px] mb-8'>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
             </div>
 
             <form className='w-full flex items-center flex-col gap-10'>
@@ -21,7 +21,7 @@ const GetInTouch = () => {
                                 value={name}
                                 onChange={(e)=>setName(e.target.value) }
                                 placeholder='Name'
-                                className='w-[400px] h-[50px] px-2 bg-[#333] text-white border-b border-white focus:outline-none'
+                                className='w-[400px] h-[50px] px-2 border border-black rounded-full'
                                 />
                             </div>
 
@@ -33,7 +33,7 @@ const GetInTouch = () => {
                                 value={email}
                                 onChange={(e)=>setEmail(e.target.value) }
                                 placeholder='E-mail'
-                                className='w-[400px] h-[50px] bg-[#333] text-white border-b border-white focus:outline-none'  
+                                className='w-[400px] px-2 h-[50px] border border-black rounded-full'  
                                 />
                             </div>
                    
@@ -45,12 +45,12 @@ const GetInTouch = () => {
                             required
                             value={comment}
                                 onChange={(e)=>setComment(e.target.value) }
-                                className=' bg-[#333] border-b border-white focus:outline-none px-2 text-white'
+                                className=' p-2 border border-black rounded-lg'
                             ></textarea>
                                
                 </div>
                 <div>
-                        <button className='border-4 border-white w-[820px] p-4 rounded-full text-[15px] font-bold text-white hover:bg-red-600 hover:border-red-600 hover:text-black hover:font-bold'>SEND</button>
+                        <button className='border-4 border-black w-[820px] p-4 rounded-full text-[15px] font-bold  hover:bg-red-600 hover:border-red-600 hover:text-white hover:font-bold'>SEND</button>
                 </div>
                 
             </form>

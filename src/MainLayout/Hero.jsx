@@ -8,7 +8,7 @@ const Hero = () => {
     <div className='background h-[50vh] flex mt-14 items-center justify-center flex-col '>
       <div>
           <div>
-           <h1 className='fontHeader text-red-600'>Search Less. Live More</h1>
+           <h1 className='fontHeader text-[#F8E231]'>Search Less. Live More</h1>
            </div>
 
            <div className='flex justify-center gap-3'>

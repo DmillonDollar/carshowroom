@@ -5,7 +5,7 @@ import  apple from '../assets/Car Project Image/getapp.png'
 
 const AppStore = () => {
   return (
-    <div className='mt-20  flex items-center bg-gray-100'>
+    <div className='  flex items-center mb-20'>
         <div className='w-[45%] flex flex-col gap-3 px-16'>
             <div className='flex items-center gap-5 text-xl text-red-800 tracking-widest font-medium'>
                 <FaCar/>
