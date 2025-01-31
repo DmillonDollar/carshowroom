@@ -6,13 +6,13 @@ import { Link } from 'react-router-dom'
 const AboutUs = () => {
     return (
         <div>
-            <div className='flex justify-center px-16 mt-20 gap-7'> 
+            <div className='flex justify-center px-16 mt-20 gap-16 w-full'> 
                 <div className='w-1/2'>
                     <img src={about}/>
                 </div>
-                <div className='flex flex-col w-1/2'>
+                <div className='flex flex-col w-1/2 gap-2'>
 
-                        <div className='flex gap-3 items-center'>
+                        <div className='flex gap-5 items-center'>
                             <FaTaxi className='text-red-500 text-2xl'/>
                             <p className='text-red-700 font-extrabold text-[25px]'>ABOUT US</p>
                         </div>
@@ -26,9 +26,9 @@ const AboutUs = () => {
                     </div>
 
                     <div className='mb-6'>
-                        <p className='w-[70%] text-[#b3b3b3]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <p className='w-[70%] font-bold'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                     </div>
-                    <div className='flex flex-col text-[#b3b3b3] gap-1 mb-8'>
+                    <div className='flex flex-col font-bold gap-1 mb-8'>
                         <div className='flex items-center gap-3'>
                             <FaDotCircle className='text-red-500 '/>
                             <p>Lorem ipsum dolor sit amet.</p>
