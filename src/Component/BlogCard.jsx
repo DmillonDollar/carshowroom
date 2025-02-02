@@ -13,7 +13,7 @@ const BlogCard = () => {
                 {/* <div className='bg-[#fcdb5a] w-14 text-center font-bold text-[1.3rem] p-2'> <h1>3 <span className='font-sans font-medium text-[15px] text-[#b3b3b3]'>Dec</span></h1></div> */}
             </div>
 
-            <div className='blog3 px-3'>
+            <div className='blog1 px-3'>
                 {/* <div className='bg-[#fcdb5a] w-14 text-center font-bold text-[1.3rem] p-2'> <h1>3 <span className='font-sans font-medium text-[15px] text-[#b3b3b3]'>Dec</span></h1></div> */}
             </div>
         </div>
