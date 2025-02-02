@@ -13,7 +13,7 @@
 }
 
 .background{
-  background-image: url("assets\pexels-lynxexotics-4141954.jpg");
+  background-image: url("assets/pexels-lynxexotics-4141954.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@
   
 }
 .blogbackground{
-  background-image: url("assets\pexels-maria-geller-801267-2127039.jpg");
+  background-image: url("assets/pexels-maria-geller-801267-2127039.jpg");
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat; 
@@ -53,6 +53,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 50px;
+  /* ggg */
   
 }
 
@@ -89,41 +90,41 @@
 
 }
 .login_background{
-  background-image: url("assets\pexels-lynxexotics-4141954.jpg");
+  background-image: url("assets/pexels-lynxexotics-4141954.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .loading{
-  background-image: url('assets\fec686_9cfc1444668b4ae9bd77f2c9e2fa28ed~mv2.gif');
+  background-image: url('assets/fec686_9cfc1444668b4ae9bd77f2c9e2fa28ed~mv2.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .applestore{
-  background-image: url('assets\Car Project Image\getapp.png');
+  background-image: url('assets/Car Project Image/getapp.png');
   background-position: left;
   background-repeat: no-repeat;
   background-size:cover;
 }
 
 .blog1{
-  background-image: url('assets\Car Project Image\blogpage1.jpg');
+  background-image: url('assets/Car Project Image/blogpage1.jpg');
   background-position: cover;
   background-size: cover;
   background-repeat: no-repeat;
   height: 35vh;
 }
 .blog2{
-  background-image: url('assets\Car Project Image\blogpage2.jpg');
+  background-image: url('assets/Car Project Image/blogpage2.jpg');
   background-position: cover;
   background-size: cover;
   background-repeat: no-repeat;
   height: 35vh;
 }
 .blog3{
-  background-image: url('assets\Car Project Image\blogpage3.jpg');
+  background-image: url('assets/Car Project Image/blogpage3.jpg');
   background-position: cover;
   background-size: cover;
   background-repeat: no-repeat;
