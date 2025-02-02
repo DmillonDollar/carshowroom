@@ -8,8 +8,8 @@ import partner5 from '../assets/Car Project Image/toyotalogo.png'
 const CarPartner = () => {
   return (
     <div className=' mt-20 mb-20'>
-        <div className='mb-20 text-center'>
-            <h1 className='  text-4xl'>Our Top <span className='font-sans font-extrabold text-[#c72e2e]'>Partner</span></h1>
+        <div className=' text-center'>
+            <h1 className='  text-4xl'>Our Top <span className='font-sans font-extrabold text-[#FF0000]'>Partner</span></h1>
         </div>
         <div className='px-16 flex gap-[80px] justify-center'>
             <div className='hover:scale-125 hover:transition-all'>

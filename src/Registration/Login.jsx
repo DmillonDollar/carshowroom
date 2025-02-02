@@ -139,7 +139,7 @@ const Login = () => {
                         </div>
                         
 
-                        <div className='flex items-center justify-center'><button className='bg-red-950 w-[65%] mb-2 p-2 rounded  outline-none' onClick={signin}>L O G I N</button></div>
+                        <div className='flex items-center justify-center'><button className='bg-[#FF0000] w-[65%] mb-2 p-2 rounded  outline-none' onClick={signin}>L O G I N</button></div>
                         <div className="flex items-center justify-center">
                             <button type="button" onClick= {goggle}className=" mb-2 login-with-google-btn">
                                 Sign In with Google
@@ -147,7 +147,7 @@ const Login = () => {
                         </div>
                         <div className='text-center'>
                             <p>Don't have an account? <Link to= '/signup'>
-                            <span className='text-blue-300 inline-block hover:text-black cursor-pointer'>SignUp</span></Link></p>
+                            <span className='text-[#FF1493] inline-block hover:text-black cursor-pointer'>SignUp</span></Link></p>
                         </div>
                     </div>
                 </div>

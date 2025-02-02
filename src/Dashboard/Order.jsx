@@ -28,7 +28,7 @@ const Order = () => {
 
              <tbody>
              {loading && <div><Loading/></div>}
-             {!orderByChild.lenth ==0 ? order.cartItems.map((items)=>{
+             {!order.lenth ==0 ? order.cartItems.map((items)=>{
                 const {name, category, description, price, imageurl}= items;
                 <tr>
               <td className='border border-white p-2 align-text-top'>{name}</td>

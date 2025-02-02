@@ -6,7 +6,7 @@ import { FaPerson, FaCar, FaBlog, FaComputer, FaPen } from 'react-icons/fa6'
 const ScrollTrig = () => {
   const [countup, setCountup] = useState(false)
   return (
-    <div className='grid grid-cols-4  px-16 py-24 raleway bg-red-600 text-white  place-content-center'>
+    <div className='grid grid-cols-4  px-16 py-24 raleway bg-[#FF0000] text-white  place-content-center'>
       {/* first */}
         <div className='flex gap-2 flex-col items-center text-center'>
             <div className='bg-black p-3 rounded-[50%]'>

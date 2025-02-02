@@ -21,12 +21,12 @@ const BlogCard = () => {
 
         <div className='grid grid-cols-3 px-16 gap-6 text-center '>
           <div className='p-6 raleway bg-white w-[90%] '>
-            <h3 className='text-red-700 text-[20px] leading-10 font-extrabold '>ROLLS ROYCE </h3>
+            <h3 className='text-[#FF0000] text-[20px] leading-10 font-extrabold '>ROLLS ROYCE </h3>
             <h4 className='text-[20px] leading-10 font-bold'> Lorem ipsum dolor sit amet.</h4>
             <p className='mb-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id libero temporibus recusandae sequi dicta cumque!</p>
               <div>
                   <Link to= '/blog'>
-                      <button className='border-4 border-[#c53131] px-[28px] py-[14px] rounded-full hover:border-[#c53131] hover:bg-red-600 hover:text-white font-semibold raleway text-xs text-[#4f4a37] cursor-pointer'>
+                      <button className='border-4 border-[#FF0000] px-[28px] py-[14px] rounded-full hover:border-[#FF0000] hover:bg-[#FF0000] hover:text-white font-semibold raleway text-xs text-[#4f4a37] cursor-pointer'>
                           READ MORE
                       </button> 
                   </Link>  
@@ -34,13 +34,13 @@ const BlogCard = () => {
           </div>
 
           <div className='p-6 raleway bg-white w-[90%] '>
-            <h3 className='text-red-700 text-[20px] leading-10 font-extrabold'>AI SELFDRIVEN CARS </h3>
+            <h3 className='text-[#FF0000] text-[20px] leading-10 font-extrabold'>AI SELFDRIVEN CARS </h3>
             <h4 className='text-[20px] leading-10 font-bold'> Lorem ipsum dolor sit amet.</h4>
             <p className='mb-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, eum facilis voluptatibus ad nostrum explicabo?</p>
 
             <div>
                   <Link to= '/blog'>
-                      <button className='border-4 border-[#c53131] px-[28px] py-[14px] rounded-full hover:border-[#c53131] hover:bg-red-600 hover:text-white font-semibold raleway text-xs text-[#4f4a37] cursor-pointer'>
+                      <button className='border-4 border-[#FF0000] px-[28px] py-[14px] rounded-full hover:border-[#FF0000] hover:bg-[#FF0000] hover:text-white font-semibold raleway text-xs text-[#4f4a37] cursor-pointer'>
                           READ MORE
                       </button> 
                   </Link>  
@@ -48,13 +48,13 @@ const BlogCard = () => {
           </div>
 
           <div className='p-6 raleway bg-white w-[90%] '>
-            <h3 className='text-red-700 text-[20px] leading-10 font-extrabold'>LEXUS STOCK CRASHING </h3>
+            <h3 className='text-[#FF0000] text-[20px] leading-10 font-extrabold'>LEXUS STOCK CRASHING </h3>
             <h4 className='text-[20px] leading font-bold'> Lorem ipsum dolor sit amet.</h4>
             <p className='mb-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iusto omnis, eius delectus culpa consectetur!.</p>
 
             <div>
                   <Link to= '/blog'>
-                      <button className='border-4 border-[#c53131] px-[28px] py-[14px] rounded-full hover:border-[#c53131] hover:bg-red-600 hover:text-white font-semibold raleway text-xs text-[#4f4a37] cursor-pointer'>
+                      <button className='border-4 border-[#FF0000] px-[28px] py-[14px] rounded-full hover:border-[#FF0000] hover:bg-[#FF0000] hover:text-white font-semibold raleway text-xs text-[#4f4a37] cursor-pointer'>
                           READ MORE
                       </button> 
                   </Link>  
