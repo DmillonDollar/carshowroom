@@ -5,7 +5,7 @@ import about from '../assets/Car Project Image/whychooseus.png'
 const WhyChooseUs = () => {
   return (
     <div className='mt-20'>
-        <div className='flex bg-black  mb-20 items-center gap-[30px] p-4 px-10'>
+        <div className='flex bg-black   items-center gap-[30px] p-4 px-10'>
             {/* FirstPart */}
                     <div className='w-[60%]'>
 
@@ -17,11 +17,11 @@ const WhyChooseUs = () => {
                             </div>
 
                             <div className='mb-2'>
-                            <h1 className='text-4xl font-extrabold'>We Are Dedicated <span className='text-red-700'>To</span></h1>
+                            <h1 className='text-4xl font-extrabold'>We Are Dedicated <span className='text-[#FF0000]'>To</span></h1>
                             </div>
 
                             <div className='mb-4'>
-                            <h1 className='text-4xl font-extrabold'><span className='text-red-700'>Provide </span>Quality Service.</h1>
+                            <h1 className='text-4xl font-extrabold'><span className='text-[#FF0000]'>Provide </span>Quality Service.</h1>
                             </div>
 
                             
@@ -41,11 +41,11 @@ const WhyChooseUs = () => {
                                     <div className='bg-white rounded-xl p-3 w-[100%]'>
                                         <div className='flex flex-col  text-black'>
                                             <div className='flex justify-between items-center'>
-                                                <div className='p-3 bg-red-600 rounded-[50%]'>
+                                                <div className='p-3 bg-[#FF0000] rounded-[50%]'>
                                                     <FaServicestack className='text-4xl text-white'/>
                                                 </div>
                                                 <div>
-                                                <p className='text-4xl fill-none text-red-600 font-extrabold'>01</p>
+                                                <p className='text-4xl fill-none text-[#FF0000] font-extrabold'>01</p>
                                                 </div>
                                             </div>
 
@@ -67,11 +67,11 @@ const WhyChooseUs = () => {
                                 <div className='bg-white rounded-xl p-3 w-[100%]'>
                                     <div className='flex flex-col text-black'>
                                         <div className='flex justify-between items-center'>
-                                            <div className='p-3 bg-red-600 rounded-[50%]'>
+                                            <div className='p-3 bg-[#FF0000] rounded-[50%]'>
                                                 <FaServicestack className='text-4xl text-white'/>
                                             </div>
                                             <div>
-                                            <p className='text-4xl fill-none text-red-600 font-extrabold'>02</p>
+                                            <p className='text-4xl fill-none text-[#FF0000] font-extrabold'>02</p>
                                             </div>
                                         </div>
 
@@ -104,11 +104,11 @@ const WhyChooseUs = () => {
                             <div className='bg-white rounded-xl p-3 w-[100%]'>
                                 <div className='flex flex-col text-black'>
                                     <div className='flex justify-between items-center'>
-                                        <div className='p-3 bg-red-600 rounded-[50%]'>
+                                        <div className='p-3 bg-[#FF0000] rounded-[50%]'>
                                             <FaServicestack className='text-4xl text-white'/>
                                         </div>
                                         <div>
-                                        <p className='text-4xl fill-none text-red-600 font-extrabold'>01</p>
+                                        <p className='text-4xl fill-none text-[#FF0000] font-extrabold'>01</p>
                                         </div>
                                     </div>
 
@@ -130,11 +130,11 @@ const WhyChooseUs = () => {
                             <div className='bg-white rounded-xl p-3 w-[100%]'>
                                 <div className='flex flex-col text-black'>
                                     <div className='flex justify-between items-center'>
-                                        <div className='p-3 bg-red-600 rounded-[50%]'>
+                                        <div className='p-3 bg-[#FF0000] rounded-[50%]'>
                                             <FaServicestack className='text-4xl text-white'/>
                                         </div>
                                         <div>
-                                        <p className='text-4xl fill-none text-red-600 font-extrabold'>02</p>
+                                        <p className='text-4xl fill-none text-[#FF0000] font-extrabold'>02</p>
                                         </div>
                                     </div>
 

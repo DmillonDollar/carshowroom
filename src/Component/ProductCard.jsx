@@ -12,7 +12,7 @@ const  ProductCard = ()=> {
     // const context = useContext(myContext)
     // const { mode, product,  } = context;
     const context = useContext(DataContext)
-    const {products, searchkey,filterType, filterPrice, loadig} = context
+    const {products, searchkey,filterType, filterPrice, loading} = context
 
     const dispatch = useDispatch()
     const cartItems = useSelector((state) => state.cart)

@@ -38,7 +38,7 @@ const Nav = () => {
 
   return (
     
-    <div className='bg-[#000000] flex justify-center items-center px-10 py-2  w-full fixed top-0'>
+    <div className='bg-black/90 flex justify-center items-center px-10 py-2  w-full fixed top-0'>
       <div className='flex w-full items-center'>
             
             <div className='w-[40%] flex justify-left'>
@@ -54,13 +54,13 @@ const Nav = () => {
        
 
         <div className='w-[60%] '>
-            <ul className='flex justify-end items-center gap-4 text-white fonts'>
-                <li><Link to="/" className=' hover:text-white hover:border-b-2 hover:border-b-[#F8E231] hover:transition-colour ease-in-out delay-150 duration-75'> Home</Link></li>
-                <li><Link to="/allcars" className='hover:text-white hover:border-b-2 hover:border-b-[#F8E231] hover:transition-colour ease-in-out delay-150 duration-75'> Inventory</Link></li>
-                <li><Link to="/blog" className='hover:text-white hover:border-b-2 hover:border-b-[#F8E231] hover:transition-colour ease-in-out delay-150 duration-75'>Blog</Link></li>
-                <li><Link to="/admin" className='hover:text-white hover:border-b-2 hover:border-b-[#F8E231] hover:transition-colour ease-in-out delay-150 duration-75'>Admin</Link></li>
-                <li><Link to="/cart" className='hover:text-white hover:border-b-2 hover:border-b-[#F8E231] hover:transition-colour ease-in-out delay-150 duration-75 '>Add  Cart</Link></li>
-                <li>{user? <p  className='hover:text-white hover:border-b-2 hover:border-b-[#F8E231] hover:transition-colour ease-in-out delay-150 duration-75' onClick={logOut} >LogOut</p>: <Link to= '/login'className='hover:text-white hover:border-b-2 hover:border-b-[#F8E231] hover:transition-colour ease-in-out delay-150 duration-75'>LogIn</Link>}</li>
+            <ul className='flex justify-end items-center gap-4 text-[#FF0000] fonts'>
+                <li><Link to="/" className=' hover:text-white hover:border-b-2 hover:border-b-[#FF0000] hover:transition-colour ease-in-out delay-150 duration-75'> Home</Link></li>
+                <li><Link to="/allcars" className='hover:text-white hover:border-b-2 hover:border-b-[#FF0000] hover:transition-colour ease-in-out delay-150 duration-75'> Inventory</Link></li>
+                <li><Link to="/blog" className='hover:text-white hover:border-b-2 hover:border-b-[#FF0000] hover:transition-colour ease-in-out delay-150 duration-75'>Blog</Link></li>
+                <li><Link to="/admin" className='hover:text-white hover:border-b-2 hover:border-b-[#FF0000] hover:transition-colour ease-in-out delay-150 duration-75'>Admin</Link></li>
+                <li><Link to="/cart" className='hover:text-white hover:border-b-2 hover:border-b-[#FF0000] hover:transition-colour ease-in-out delay-150 duration-75 '>Add  Cart</Link></li>
+                <li>{user? <p  className='hover:text-white hover:border-b-2 hover:border-b-[#FF0000] hover:transition-colour ease-in-out delay-150 duration-75' onClick={logOut} >LogOut</p>: <Link to= '/login'className='hover:text-white hover:border-b-2 hover:border-b-[#FF0000] hover:transition-colour ease-in-out delay-150 duration-75'>LogIn</Link>}</li>
                 
 
             </ul>

@@ -142,7 +142,7 @@ const SignUp = () => {
             </div>
 
             <div className="flex items-center justify-center ">
-              <button onClick= {signUp}className="bg-[#201E43] w-[65%] mb-2 p-2 rounded  hover:bg-green-950 outline-none">
+              <button onClick= {signUp}className="bg-[#FF0000] w-[65%] mb-2 p-2 rounded  hover:bg-green-950 outline-none">
                 SIGN UP
               </button>
             </div>

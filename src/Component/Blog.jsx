@@ -13,7 +13,7 @@ const Blog = () => {
       <div className=' mt-10'>
 
       <div className='text-center mb-10'>
-        <h1 className='text-4xl font-bold'>POPULAR <span className='font-sans text-[#831e1e] leading-[4rem]'> CAR BLOG</span></h1>
+        <h1 className='text-4xl font-bold'>POPULAR <span className='font-sans text-[#FF0000] leading-[4rem]'> CAR BLOG</span></h1>
         </div>
 
      <BlogCard/>

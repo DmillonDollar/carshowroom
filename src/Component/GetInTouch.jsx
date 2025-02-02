@@ -7,7 +7,7 @@ const GetInTouch = () => {
     return (
         <div className='flex flex-col items-center p-24 raleway '>
             <div className='text-center'>
-                <h1 className='  text-5xl  font-extrabold mb-8'>GET <span className='font-sans font-thin text-red-900'>IN TOUCH</span></h1>
+                <h1 className='  text-5xl  font-extrabold mb-8'>GET <span className='font-sans font-thin text-[#FF0000]'>IN TOUCH</span></h1>
                 <p className=' w-[600px] mb-8'>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
             </div>
 
@@ -50,7 +50,7 @@ const GetInTouch = () => {
                                
                 </div>
                 <div>
-                        <button className='border-4 border-black w-[820px] p-4 rounded-full text-[15px] font-bold  hover:bg-red-600 hover:border-red-600 hover:text-white hover:font-bold'>SEND</button>
+                        <button className='border-4 border-black w-[820px] p-4 rounded-full text-[15px] font-bold  hover:bg-[#FF0000] hover:border-[#FF0000] hover:text-white hover:font-bold'>SEND</button>
                 </div>
                 
             </form>
